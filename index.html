@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RPGame</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#" id="navbar-logo">
+                <i class="fa fa-cube" aria-hidden="true"></i>RPgame
+            </a>
+
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_link">Home</a>
+                </li>
+
+                <li class="navbar_item">
+                    <a href="library.html" class="navbar_link">Library</a>
+                </li>
+
+                <li class="navbar_item">
+                    <a href="resources.html" class="navbar_link">Resources</a>
+                </li>                
+            </ul>
+
+            <div class="lang_dropdown">
+                <a href="#" class="lang_btn"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <ul class="dropdown_menu">
+                    <li><a href="#" class="dropdown_item" data-lang="en">English</a></li>
+                    <li><a href="#" class="dropdown_item" data-lang="uk">Українська</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main section -->
+    <main class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Don't know where to start?</h1>
+                <h2>What game to choose?</h2>
+                <p>Discover the world of Role-Playing Games</p>
+                <button class="main_btn" id="scroll-btn">Get Started</button>
+            </div>
+
+            <div class="main_img--container">
+                <img id="main_img" src="https://flipsimu.com/static/d20-image-big-15f93ceb442bcd0c6c937a8750147b7a.png" alt="20-sided dice" />
+            </div>
+        </div>
+    </main>
+
+    <!-- RPG Info Section -->
+    <section id="rpg-info" class="info_section">
+        <h2>What are Role-Playing Games?</h2>
+        <p>RPGs are immersive storytelling experiences where players take on the roles of characters and shape their own adventures.</p>
+        <p>From classic tabletop games like <b>Dungeons & Dragons</b> to modern indie RPGs, there’s a vast world to explore!</p>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews_section">
+        <h2>What Players Say</h2>
+        <div class="reviews_slider_container">
+            <div class="reviews_slider">
+                <div class="reviews_card">
+                    <p>"D&D changed my life! The adventures, the stories, the friends—amazing!"</p>
+                    <h4>- Alex</h4>
+                </div>
+                <div class="reviews_card">
+                    <p>"Call of Cthulhu is the best horror RPG ever! The thrill is unreal."</p>
+                    <h4>- Sam</h4>
+                </div>
+                <div class="reviews_card">
+                    <p>"Pathfinder's customization is unmatched. Love building unique characters."</p>
+                    <h4>- Jordan</h4>
+                </div>
+            </div>
+        </div>
+        <div class="slider_buttons">
+            <button class="slider_btn" id="prevBtn">&#10094;</button>
+            <button class="slider_btn" id="nextBtn">&#10095;</button>
+        </div>
+        <div class="slider_indicators"></div>
+    </section>
+
+    <!-- Popular RPGs Section -->
+    <section class="rpg_section">
+        <h2>Popular Role-Playing Games</h2>
+        <div class="rpg_cards">
+            <div class="rpg_card">
+                <h3>Dungeons & Dragons</h3>
+                <p>The classic tabletop RPG where you embark on epic adventures.</p>
+                <a href="library.html" class="rpg_btn">Learn More</a>
+            </div>
+            <div class="rpg_card">
+                <h3>Call of Cthulhu</h3>
+                <p>A horror-based RPG inspired by H.P. Lovecraft’s works.</p>
+                <a href="library.html" class="rpg_btn">Learn More</a>
+            </div>
+            <div class="rpg_card">
+                <h3>Pathfinder</h3>
+                <p>A fantasy RPG with deep character customization.</p>
+                <a href="library.html" class="rpg_btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Start Section -->
+    <section class="start_section">
+        <h2>How to Start Playing RPGs?</h2>
+        <div class="start_container">
+            <div class="start_steps">
+                <div class="step">
+                    <h3><span>1.</span> Choose a game</h3>
+                    <p>There are a lot of games to choose from. The most basic choice is Dungeon and Dragons, D&D for short.</p>
+                </div>
+
+                <div class="step">
+                    <h3><span>2.</span> Find a group</h3>
+                    <p>Tell your friends about the game. Power of imagination is very tempting, isn't it? If no one is interested, many groups exist online.</p>
+                </div>
+
+                <div class="step">
+                    <h3><span>3.</span> Learn the rules</h3>
+                    <p>Rules are easy to learn. You can find PDFs everywhere on the internet or watch some videos on your chosen game.</p>
+                </div>
+                
+                <div class="step">
+                    <h3><span>4.</span> Start your adventure!</h3>
+                    <p>You can start a premade story or try a one-shot session. It's a great way to get into the game!</p>
+                </div>
+
+                <a href="resources.html" class="step_btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_links">
+                <div class="social_media">
+                    <div class="social_media--wrap">
+                        <div class="footer_logo">
+                            <a href="index.html" id="footer-logo">
+                                <i class="fa fa-cube" aria-hidden="true"></i>RPgame
+                            </a>
+                        </div>
+
+                        <div class="footer_link--items">
+                            <a href="/">exampleemail@gmail.com</a>
+                            <a href="/">(+380) 00 000 00 00</a>
+                        </div>
+
+                        <div class="social_icons">
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/" class="social_icon--link" target="_blank">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a href="https://x.com/" class="social_icon--link" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                            <!-- YouTube -->
+                            <a href="https://www.youtube.com/" class="social_icon--link" target="_blank">
+                                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="website_rights">© RPgame 2025. All rights reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
