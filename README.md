@@ -5,3 +5,5 @@
 Проект виконано в рамках навчального завдання з фронтенду.
 
 RPGame це веб-сайт, присвячений рольовим іграм, таким як Dungeons & Dragons, Call of Cthulhu, Pathfinder та іншим.
+
+https://allaandra.github.io/RPGsite/
